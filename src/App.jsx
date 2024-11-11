@@ -6,10 +6,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div className="main"> 
+     <div className="app">
       <Sidebar />
       <Dashboard2 />
     </div>
+    </div>
+
   );
 }
 
