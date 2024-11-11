@@ -4,7 +4,8 @@
     height: 100%;
     width:88.7%;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: rgba(244, 247, 252, 1);
+
     background-image: url('./assets/Desktop.png');
     background-size: cover;
     padding: 70px;
@@ -12,10 +13,12 @@
 }
 
 .app {
+  background: rgba(244, 247, 252, 1);
+
   width: 100%;
   display: flex;
   position: relative;
-  height: 50rem;
+  height: 70rem;
   background-image: url('./assets/Desktop.png'); /* Add your background image here */
   background-size: cover;
   background-position: center;

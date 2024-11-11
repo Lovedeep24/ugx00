@@ -60,12 +60,12 @@ text-decoration-skip-ink: none;
   }
   
   .div1 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     /* flex-direction: column; */
     flex: 1;
-    background-color: #fff;
-    border-radius: 8px;
+    background: rgba(244, 247, 252, 1);
+    /* border-radius: 8px; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     height: 20rem;
@@ -95,37 +95,52 @@ text-decoration-skip-ink: none;
   
   .div1 .data div {
     border: 2px solid gray;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 1px; 
     flex: 0 0 45%;
     margin-bottom: 15px;
   }
   
   .PowerConsumptio {
-    background-image: url('./assets/Group 1.png');
+  
     width: 40%;
     border: 2px solid yellow;
     /* flex: 0.3; */
-    background-color: #fff;
-    border-radius: 8px;
+background: rgba(244, 247, 252, 1);;
+    /* border-radius: 8px; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     /* padding: 20px; */
     margin-left: 5px;
     height: 100%;
   }
+  .PowerConsumptio h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+ /* .img1{
+    background-image: url('../assets/Group3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  } */
   .circleData{
-    width: 50%;
+    width: 40%;
     border: 2px solid green;
   }
   .graph{
     border:2px solid green;
     width: 60%;
-    height: 10rem;
+    height: 20rem;
+    margin-left: 10px;
   }
   .div2 {
-display: flex;
-    background-color: #fff;
-    border-radius: 8px;
+    height: 20rem;
+     display: flex;
+     background: rgba(244, 247, 252, 1);
+    /* border-radius: 8px; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
   }

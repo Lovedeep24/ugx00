@@ -47,10 +47,7 @@ const Dashboard2 = () => {
                     </div>
                     <div className={styles.div2}>
                         <div className={styles.circleData}>
-                            <h3>Consumption</h3>
-                            <p>1200</p>
-                            <p>Power Consumption</p>
-                            <p>1200</p>
+                            <h3>Power Consumption</h3>
                         </div>
                         <div className={styles.graph}>
                             
