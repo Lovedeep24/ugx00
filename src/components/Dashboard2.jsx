@@ -12,42 +12,70 @@ const Dashboard2 = () => {
         <div className={styles.DashboardMain}>
             <h1>Dashboard</h1>
                 <div className={styles.innerDash}>
-                    <div className={styles.div1}>
-                        <div className={styles.data}>
-
-                      
-                        <div>
+                <div className={styles.div1}>
+                      <div className={styles.data}>
+                        <div className={styles.item}>
+                          <div className={styles.info}>
                             <p>Fans</p>
                             <h3>27</h3>
                             <p>Power Consumption</p>
                             <h3>270</h3>
+                          </div>
+                          <div className={styles.dataImg}></div>
                         </div>
-                        <div>
+                        <div className={styles.item}>
+                          <div className={styles.info}>
                             <p>Light</p>
                             <h3>65</h3>
                             <p>Power Consumption</p>
                             <h3>876</h3>
+                          </div>
+                          <div className={styles.dataImg}></div>
                         </div>
-                        <div>
+                        <div className={styles.item}>
+                          <div className={styles.info}>
                             <p>Refrigerator</p>
                             <h3>4</h3>
                             <p>Power Consumption</p>
                             <h3>0</h3>
+                          </div>
+                          <div className={styles.dataImg}></div>
                         </div>
-                        <div>
-                            <p>Air Conditioner</p>
-                            <h3>852</h3>
+                        <div className={styles.item}>
+                          <div className={styles.info}>
+                            <p>Refrigerator</p>
+                            <h3>4</h3>
                             <p>Power Consumption</p>
-                            <h3>65</h3>
+                            <h3>0</h3>
+                          </div>
+                          <div className={styles.dataImg}></div>
                         </div>
-                    </div>   
-                        <div className={styles.PowerConsumptio}>
-                            <h3>Average Power Consumption</h3>
-                        </div> 
+                      </div>
+                      <div className={styles.consumptionGraph}>
+                            <h3>Total Consumption Graph</h3>
+                            <div className={styles.imageContainer}>
+
+                            </div>
                     </div>
+                    </div>
+                   
                     <div className={styles.div2}>
                         <div className={styles.circleData}>
                             <h3>Power Consumption</h3>
+                            <div className={styles.circleDivs}>
+                            <div className={styles.divs1}>
+                                <p>Hooter</p>
+                                <h3>5000</h3>
+                            </div>
+                            <div className={styles.divs2}>
+                                <p>Fans</p>
+                                <h3>3,560</h3>  
+                            </div>
+                            <div className={styles.divs3}>
+                                <p>Lights</p>
+                                <h3>2,360</h3>
+                            </div>
+                            </div>
                         </div>
                         <div className={styles.graph}>
                             <h3>Current Power Consumption(Kw/H)</h3>
