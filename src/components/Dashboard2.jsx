@@ -42,7 +42,7 @@ const Dashboard2 = () => {
                         </div>
                     </div>   
                         <div className={styles.PowerConsumptio}>
-                            
+                            <h3>Average Power Consumption</h3>
                         </div> 
                     </div>
                     <div className={styles.div2}>
