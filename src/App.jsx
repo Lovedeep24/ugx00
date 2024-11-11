@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/SideBar.jsx';
 import Dashboard2 from './components/Dashboard2.jsx';
 import './App.css';
 
