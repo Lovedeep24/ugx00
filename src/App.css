@@ -1,0 +1,39 @@
+/* App.css */
+.app {
+  display: flex;
+  position: relative;
+  height: 50rem;
+  background-image: url('./assets/Desktop.png'); /* Add your background image here */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps background fixed during scrolling */
+  border: 2px solid red;
+}
+
+.Sidebar, .Dashboard2 {
+  position: relative;
+  z-index: 1; /* Ensures these components appear above the background */
+}
+
+.Sidebar {
+
+  border: 2px solid green;
+  width: 250px; /* Example width, adjust as needed */
+  height: 200rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  color: #fff;
+  padding: 20px;
+}
+
+.Dashboard2 {
+  height: 100vh;
+  border: 2px solid blue;
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for the dashboard */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  margin-left: 20px; /* Space between Sidebar and Dashboard */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+

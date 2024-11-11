@@ -1,0 +1,150 @@
+/* Dash.module.css */
+.bgMain{
+    width: 100%;
+    height: 100vh;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+
+  }
+  
+  .topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+ .DashboardMain h1{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 38.73px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+ } 
+  .topNav input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .topNav .userInfo {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .DashboardMain {
+    /* display: flex; */
+    flex: 1;
+    margin-top: 20px;
+  }
+  
+  .innerDash {
+    /* display: flex; */
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .div1 {
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: column; */
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 20rem;
+    /* margin-right: 20px; */
+  }
+  
+  .div1 h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  .div1 p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .div1 .data {
+    /* border: 2px solid green; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .div1 .data div {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 1px; 
+    flex: 0 0 45%;
+    margin-bottom: 15px;
+  }
+  
+  .PowerConsumptio {
+    background-image: url('./assets/Group 1.png');
+    width: 40%;
+    border: 2px solid yellow;
+    /* flex: 0.3; */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* padding: 20px; */
+    margin-left: 5px;
+    height: 100%;
+  }
+  .circleData{
+    width: 50%;
+    border: 2px solid green;
+  }
+  .graph{
+    border:2px solid green;
+    width: 60%;
+    height: 10rem;
+  }
+  .div2 {
+display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .innerDash {
+      flex-direction: column;
+    }
+  
+    .div1, .PowerConsumptio, .div2 {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .topNav input {
+      width: 100%;
+    }
+  }
+  
