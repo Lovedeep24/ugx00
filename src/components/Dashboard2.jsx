@@ -50,7 +50,11 @@ const Dashboard2 = () => {
                             <h3>Power Consumption</h3>
                         </div>
                         <div className={styles.graph}>
-                            
+                            <h3>Current Power Consumption(Kw/H)</h3>
+                            <h1>1633.00</h1>
+                            <div className={styles.graphimg}>
+
+                            </div>
                         </div>
                     </div>
             <div>
