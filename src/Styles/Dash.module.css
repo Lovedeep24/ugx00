@@ -94,7 +94,8 @@ text-decoration-skip-ink: none;
   }
   
   .div1 .data div {
-    border: 2px solid gray;
+    padding: 4px;
+    /* border: 2px solid gray; */
     border-radius: 5px;
     margin: 1px; 
     flex: 0 0 45%;
