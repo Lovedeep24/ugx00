@@ -1,5 +1,6 @@
 /* Styles/Sidebar.module.css */
 .sidebar {
+  height: 80.3%;
     width: 200px;
     background-color: white;
     padding: 20px;

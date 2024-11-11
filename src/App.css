@@ -9,7 +9,7 @@
     background-image: url('./assets/Desktop.png');
     background-size: cover;
     padding: 70px;
-    /* border: 2px solid black; */
+    border: 2px solid yellow;
 }
 
 .app {
@@ -19,11 +19,11 @@
   display: flex;
   position: relative;
   height: 70rem;
-  background-image: url('./assets/Desktop.png'); /* Add your background image here */
+  /* background-image: url('./assets/Desktop.png');  */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Keeps background fixed during scrolling */
-  border: 2px solid black;
+  border: 4px solid black;
   border-radius: 20px;
   overflow: hidden;
 }
